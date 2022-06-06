@@ -1,0 +1,157 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+
+}
+
+header {
+  padding: 5px 0;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-image: url("https://i.imgur.com/mksUEWC.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+}
+
+.jumbotron h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 2rem 0 30px;
+  color: #fff;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h3 {
+  text-align: center;
+  margin: 0 0 30px;
+  color: #fff;
+}
+
+.jumbotron a {
+  position: relative;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.jumbotron .btn.btn-primary {
+  border-radius: 2px;
+  position: relative;
+  border: 0px;
+  color: darkblue;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: darkblue;
+}
+
+.col-sm {
+  background-image: linear-gradient(#f07575, #fffd73, #a2ff99);
+  border-style: solid;
+  border-width: 3px;
+  display: block;
+  font-weight: 450;
+  margin: 0 0 10px;
+  width: 100%;
+
+}
+
+.container-fluid {
+  background-color: #fafafa;
+  border-style: solid;
+  border-width: 2px;
+  margin: 50px;
+}
+
+.embed-responsive-21by9 {
+  width: 100px;
+}
+
+.col-md {
+  display: flex;
+}
+
+.col-sm-12 {
+
+  display: inline;
+  float: left;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
+
+.footer {
+  background-color: #111f5e;
+  color: #fff;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer a {
+  border-radius: 2px;
+  position: relative;
+  border: 0px;
+
+  text-shadow: none;
+  background-image: url("https://i.pinimg.com/originals/d2/e5/35/d2e5359f8402cb8d3d7b22c463f9013b.png");
+  background-size: cover;
+  background-position: center;
+}
